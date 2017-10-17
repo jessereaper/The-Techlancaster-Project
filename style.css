@@ -128,7 +128,23 @@ h1 {
   color: #4e1c07;
   padding-bottom: 20px; }
 
+.titless {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.9px;
+  color: #eb503c;
+  padding-bottom: 20px; }
+
 .common {
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c; }
+
+.common2 {
   font-family: DroidSerif;
   font-size: 15px;
   line-height: 1.6;
@@ -146,17 +162,53 @@ h1 {
   padding-top: 15px; }
 
 .gradiantbr {
-  width: 302px;
-  height: 3px;
+  width: 320px;
+  height: .5px;
   background-color: #ee3e28; }
 
 .textbox2 .titles {
-  padding-left: 20px; }
+  padding-right: 20px;
+  text-align: left; }
 
 .fcontent {
   padding-top: 25px;
   padding-left: 58px;
   padding-right: 33px;
   padding-bottom: 25px; }
+
+.list {
+  color: #efe9d8; }
+
+.bklist .bklist2 {
+  background-color: #eb503c;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 219px;
+  height: 54px; }
+
+.sct {
+  background-color: #ffc400; }
+  .sct .titless {
+    text-align: center;
+    padding-left: 15px; }
+
+.list2 .titles {
+  padding-left: 59px;
+  text-align: left; }
+
+.sct2 {
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .sct2 .common {
+    size: 18px;
+    font-weight: bold;
+    text-align: left; }
+  .sct2 .common {
+    font-size: 18px;
+    text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

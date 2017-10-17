@@ -172,7 +172,25 @@ h1{
   padding-bottom: 20px;
 }
 
+.titless{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.9px;
+  color: $lightrb;
+  padding-bottom: 20px;
+}
+
 .common{
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: $msttxt;
+}
+
+.common2{
   font-family: DroidSerif;
   font-size: 15px;
   line-height: 1.6;
@@ -194,14 +212,15 @@ h1{
 }
 
 .gradiantbr{
-  width: 302px;
-  height: 3px;
+  width: 320px;
+  height: .5px;
   background-color: $grdbr;
 }
 
 .textbox2{
   .titles{
-    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
   }
 }
 
@@ -210,4 +229,55 @@ h1{
   padding-left: 58px;
   padding-right: 33px;
   padding-bottom: 25px;
+}
+
+//* second page *//
+
+.list{
+  color: $pictxt;
+}
+
+.bklist .bklist2{
+  background-color: $lightrb;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 219px;
+  height: 54px;
+}
+
+.sct{
+  background-color: $ylwb;
+  .titless{
+    text-align: center;
+    padding-left: 15px;
+  }
+}
+
+.list2{
+  .titles{
+    padding-left: 59px;
+    text-align: left;
+  }
+
+}
+
+.sct2{
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  .common{
+    size: 18px;
+    font-weight: bold;
+    text-align: left;
+
+  }
+  .common{
+    font-size: 18px;
+    text-align: left;
+
+
+  }
 }
