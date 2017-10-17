@@ -63,7 +63,7 @@ h1, h2 {
 //* index.html *//
 
 .tech{
-	width: 320px;
+	width: 100%;
 	height: 58px;
 	background-color: $ylwh;
 }
@@ -96,9 +96,9 @@ h1{
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: fixed;
   background-color: $ylwh;
-  min-width: 160px;
+  min-width: 146px;
   box-shadow: 0px 8px 16px 0px grey;
   z-index: 1;
 }
@@ -134,21 +134,22 @@ h1{
 .pic{
   background-image: url("pictures/hp.jpg");
   background-repeat: no-repeat;
-  width: 320px;
+  width: 100%;
   height: 350px;
 }
 
 .picc{
-  width: 244px;
+  width: 100%;
   height: 153px;
   font-family: Lato;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 900;
   line-height: 1.17;
   letter-spacing: 1.8px;
   text-align: left;
   color: $pictxt;
-  padding: 50px;
+  padding-left: 30px;
+  padding-top: 90px;
 }
 
 .bc{
@@ -212,7 +213,7 @@ h1{
 }
 
 .gradiantbr{
-  width: 320px;
+  width: 100%;
   height: .5px;
   background-color: $grdbr;
 }
@@ -243,7 +244,7 @@ h1{
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  width: 219px;
+  width: 100%;
   height: 54px;
 }
 
@@ -269,15 +270,82 @@ h1{
   padding-right: 21px;
   padding-bottom: 56px;
   .common{
-    size: 18px;
+    size: 20px;
     font-weight: bold;
     text-align: left;
 
   }
-  .common{
+  .common2{
     font-size: 18px;
     text-align: left;
-
-
+    letter-spacing: 0px;
   }
 }
+
+.sct3{
+  background-color: #e6e2d3;
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  .titles{
+    text-align: left;
+    font-size: 21px;
+  }
+  .common2{
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+}
+
+.sct4{
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  .titles{
+  font-size: 20px;
+  }
+  .common{
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .common2{
+    font-size: 18px;
+  }
+}
+
+.sep{
+  .common{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+}
+
+.sec5{
+  background-color: #e6e2d3;
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  .titles{
+    font-size: 21px;
+  }
+  .common{
+    font-size: 18px;
+  }
+}
+
+.sec6{
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  .common{
+    font-size: 16px;
+  letter-spacing: 0px;
+  }
+}
+
+//* third page *//
