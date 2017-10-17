@@ -1,0 +1,213 @@
+
+//* variables *//
+$ylwh: #ffab00;
+$ylwb: #ffc400;
+$lightrb: #eb503c;
+$darkrb: #a13729;
+$imptxt: #4e1c07;
+$msttxt: #021d2c;
+$tchtxt: #064159;
+$pictxt: #efe9d8;
+$titles: #4e1c07;
+$grdbr: #ee3e28;
+
+//* css reset *//
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  width: 320px;
+  height: 531px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+  text-align: center;
+}
+
+//* index.html *//
+
+.tech{
+	width: 320px;
+	height: 58px;
+	background-color: $ylwh;
+}
+
+h1{
+  width: 202px;
+  height: 15px;
+  font-family: lato;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 1.29;
+  letter-spacing: 2.1px;
+  text-align: left;
+  color: $tchtxt;
+}
+
+.dropbtn {
+  background-color: $ylwh;
+  color: $tchtxt;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: $ylwh;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px grey;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: $tchtxt;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: $ylwh;
+  color: $tchtxt;
+}
+
+.fltl{
+  float: left;
+}
+
+.fltr{
+  float: right;
+}
+
+.pic{
+  background-image: url("pictures/hp.jpg");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 350px;
+}
+
+.picc{
+  width: 244px;
+  height: 153px;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.17;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: $pictxt;
+  padding: 50px;
+}
+
+.bc{
+  background-color: $ylwb;
+
+}
+
+.content{
+  padding-top: 55px;
+  padding-left: 28px;
+  padding-right: 33px;
+  padding-bottom: 55px;
+}
+
+.titles{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.9px;
+  color: $titles;
+  padding-bottom: 20px;
+}
+
+.common{
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: $msttxt;
+}
+
+.txtbox1{
+.common{
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: $msttxt;
+  padding-top: 15px;
+}
+}
+
+.gradiantbr{
+  width: 302px;
+  height: 3px;
+  background-color: $grdbr;
+}
+
+.textbox2{
+  .titles{
+    padding-left: 20px;
+  }
+}
+
+.fcontent{
+  padding-top: 25px;
+  padding-left: 58px;
+  padding-right: 33px;
+  padding-bottom: 25px;
+}
