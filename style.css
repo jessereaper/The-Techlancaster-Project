@@ -11,7 +11,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  width: 320px;
+  height: 531px; }
 
 ol, ul {
   list-style: none; }
@@ -46,11 +48,12 @@ h1 {
   font-weight: 900;
   line-height: 1.29;
   letter-spacing: 2.1px;
-  text-align: left; }
+  text-align: left;
+  color: #064159; }
 
 .dropbtn {
   background-color: #ffab00;
-  color: grey;
+  color: #064159;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -69,25 +72,91 @@ h1 {
   z-index: 1; }
 
 .dropdown-content a {
-  color: grey;
+  color: #064159;
   padding: 12px 16px;
   text-decoration: none;
   display: block; }
 
 .dropdown-content a:hover {
-  background-color: grey; }
+  background-color: black; }
 
 .dropdown:hover .dropdown-content {
   display: block; }
 
 .dropdown:hover .dropbtn {
-  background-color: grey;
-  color: grey; }
+  background-color: #ffab00;
+  color: #064159; }
 
 .fltl {
   float: left; }
 
 .fltr {
   float: right; }
+
+.pic {
+  background-image: url("pictures/hp.jpg");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 350px; }
+
+.picc {
+  width: 244px;
+  height: 153px;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.17;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #efe9d8;
+  padding: 50px; }
+
+.bc {
+  background-color: #ffc400; }
+
+.content {
+  padding-top: 55px;
+  padding-left: 28px;
+  padding-right: 33px;
+  padding-bottom: 55px; }
+
+.titles {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.9px;
+  color: #4e1c07;
+  padding-bottom: 20px; }
+
+.common {
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c; }
+
+.txtbox1 .common {
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  padding-top: 15px; }
+
+.gradiantbr {
+  width: 302px;
+  height: 3px;
+  background-color: #ee3e28; }
+
+.textbox2 .titles {
+  padding-left: 20px; }
+
+.fcontent {
+  padding-top: 25px;
+  padding-left: 58px;
+  padding-right: 33px;
+  padding-bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */
