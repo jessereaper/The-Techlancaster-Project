@@ -112,6 +112,18 @@ h1 {
   padding-left: 30px;
   padding-top: 90px; }
 
+.piccc {
+  width: 100%;
+  height: 153px;
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.17;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #efe9d8;
+  padding-left: 30px; }
+
 .bc {
   background-color: #ffc400; }
 
@@ -152,6 +164,14 @@ h1 {
   letter-spacing: 0.8px;
   text-align: left;
   color: #021d2c; }
+
+.common3 {
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #4c1a14; }
 
 .txtbox1 .common {
   font-family: DroidSerif;
@@ -263,5 +283,142 @@ h1 {
   .sec6 .common {
     font-size: 16px;
     letter-spacing: 0px; }
+
+.pic2 {
+  background-image: url("pictures/hp.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px; }
+
+.pg31 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg31 .titles {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg31 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg31 .common2 {
+    padding-left: 9px; }
+  .pg31 .common3 {
+    text-align: left;
+    padding-right: 55px;
+    font-size: 20px; }
+
+.pg32 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg32 .titles {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg32 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg32 .common2 {
+    padding-left: 9px; }
+  .pg32 .common3 {
+    text-align: left;
+    padding-right: 20px;
+    font-size: 20px; }
+
+.pg33 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg33 .titles {
+    padding-top: 15px;
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg33 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg33 .common2 {
+    padding-left: 9px; }
+  .pg33 .common3 {
+    text-align: left;
+    padding-right: 10px;
+    font-size: 20px; }
+
+.pg34 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg34 .titles {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg34 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg34 .common2 {
+    padding-left: 9px; }
+  .pg34 .common3 {
+    text-align: left;
+    padding-right: 50px;
+    font-size: 20px; }
+
+.pg35 {
+  background-color: #eb503c;
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  text-align: left; }
+  .pg35 .gt {
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 10px;
+    color: #efe9d8;
+    font-size: 30px; }
+  .pg35 .gtt {
+    text-align: left;
+    padding: 0px;
+    padding-top: 0px;
+    color: #efe9d8;
+    font-size: 20px;
+    padding-bottom: 15px; }
+  .pg35 .gttt {
+    color: #efe9d8;
+    font-size: 18px; }
+
+.pg36 {
+  background-color: #eb503c;
+  padding-top: 51px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 56px;
+  text-align: left; }
+  .pg36 .gt {
+    text-align: left;
+    padding-bottom: 30px;
+    color: #efe9d8;
+    font-size: 20px; }
+  .pg36 .gtt {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #efe9d8;
+    font-size: 20px; }
+  .pg36 .gttt {
+    color: #efe9d8;
+    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
