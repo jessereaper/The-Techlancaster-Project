@@ -153,6 +153,14 @@ h1 {
   text-align: left;
   color: #021d2c; }
 
+.common3 {
+  font-family: DroidSerif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c; }
+
 .txtbox1 .common {
   font-family: DroidSerif;
   font-size: 15px;
@@ -263,5 +271,96 @@ h1 {
   .sec6 .common {
     font-size: 16px;
     letter-spacing: 0px; }
+
+.pic2 {
+  background-image: url("pictures/hp.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px; }
+
+.pg31 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg31 .titles {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg31 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg31 .common2 {
+    padding-left: 9px; }
+  .pg31 .common3 {
+    text-align: left;
+    padding-right: 55px;
+    font-size: 20px; }
+
+.pg32 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg32 .titles {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg32 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg32 .common2 {
+    padding-left: 9px; }
+  .pg32 .common3 {
+    text-align: left;
+    padding-right: 20px;
+    font-size: 20px; }
+
+.pg33 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg33 .titles {
+    padding-top: 15px;
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg33 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg33 .common2 {
+    padding-left: 9px; }
+  .pg33 .common3 {
+    text-align: left;
+    padding-right: 10px;
+    font-size: 20px; }
+
+.pg34 {
+  padding-top: 51px;
+  padding-left: 15px;
+  padding-right: 21px;
+  padding-bottom: 56px; }
+  .pg34 .titles {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative; }
+  .pg34 .common {
+    padding-left: 7px;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+  .pg34 .common2 {
+    padding-left: 9px; }
+  .pg34 .common3 {
+    text-align: left;
+    padding-right: 50px;
+    font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
