@@ -1,5 +1,6 @@
-//* import *//
-
+//* imports *//
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=lato');
 //* variables *//
 $ylwh: #ffab00;
 $ylwb: #ffc400;
@@ -32,8 +33,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  width: 320px;
-  height: 531px;
+  width: 100%;
+  height: 100%;
 }
 
 ol, ul {
@@ -71,7 +72,7 @@ h1, h2 {
 }
 
 h1{
-  width: 202px;
+  width: 100%;
   height: 15px;
   font-family: lato;
   font-size: 21px;
@@ -83,7 +84,7 @@ h1{
 }
 
 .dropbtn {
-  background-color: $ylwh;
+  background-color: $lightrb;
   color: $tchtxt;
   padding: 16px;
   font-size: 16px;
@@ -121,7 +122,7 @@ h1{
 }
 
 .dropdown:hover .dropbtn {
-  background-color: $ylwh;
+  background-color: $lightrb;
   color: $tchtxt;
 }
 
@@ -135,6 +136,7 @@ h1{
 
 .pic{
   background-image: url("pictures/hp.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 350px;
@@ -169,7 +171,10 @@ h1{
 
 .bc{
   background-color: $ylwb;
+}
 
+.bc2{
+  background-color: $ylwb;
 }
 
 .content{
@@ -180,6 +185,7 @@ h1{
 }
 
 .titles{
+  font-family: DroidSerif;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.56;
@@ -377,6 +383,7 @@ h1{
 .pic2{
   background-image: url("pictures/hp.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 260px;
 }
@@ -524,7 +531,7 @@ h1{
 }
 
 .pg36{
-  background-color: $lightrb;
+  background-color: $darkrb;
   padding-top: 51px;
   padding-left: 21px;
   padding-right: 21px;
@@ -547,4 +554,252 @@ h1{
     color: $pictxt;
     font-size: 18px;
   }
+}
+
+@media only screen and (max-width: 320px) {
+  body{
+    width: 100%;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  body{
+    width: 100%;
+  }
+  .pic{
+    width: 100%;
+  }
+  .pic2{
+    width: 100%;
+  }
+
+  .fcontent{
+    .common{
+    position: absolute;
+    left: 150px;
+    top: 950px;
+    }
+    .common2{
+      position: absolute;
+      top: 950px;
+      right: 150px;
+    }
+  }
+  .middle{
+    background-color: $ylwb;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    left: 130px;
+    top: 300px;
+  }
+  .fltt{
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+  }
+  .fl{
+    padding:0px;
+    width: 39%;
+    position: absolute;
+    left: 500px;
+    .titles{
+      padding-left: 40px;
+    }
+    .common{
+      padding-left: 40px;
+    }
+  }
+  .frg{
+    background-color: $lightrb;
+    position: absolute;
+    height: 400px;
+    width: 1px;
+    right: 330px;
+    top: 40px;
+  }
+
+  .middle2{
+    width: 80%;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    .bc2{
+      .content{
+      width: 50%;
+      height: 100%;
+    }
+  }
+ }
+ .sct{
+   position: absolute;
+   top: 0.5px;
+   right: 1px;
+   width: 39%;
+   height: 99%;
+ }
+ .bc2{
+   .gradiantbr{
+     background-color: $lightrb;
+     position: absolute;
+     height: 400px;
+     width: 1px;
+     right: 330px;
+     top: 30px;
+   }
+ }
+ .sct2{
+   padding-top: 400px;
+ }
+ .flex{
+   display: flex;
+   flex-wrap: wrap;
+   .pg31,.pg32,.pg33,.pg34,.pg35{
+     display: flex;
+     margin: 5px;
+     width: 31%;
+     height: 200px;
+     padding:0px;
+     display: inline;
+   }
+ }
+ .foot{
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+  .l{
+    float: left;
+  }
+  .r{
+    float: right;
+  }
+ }
+}
+
+@media only screen and (min-width: 1339px) {
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  .pic{
+    width: 100%;
+  }
+  .pic2{
+    width: 100%;
+  }
+
+  .fcontent{
+    .common{
+    position: absolute;
+    left: 150px;
+    top: 900px;
+    }
+    .common2{
+      position: absolute;
+      top: 900px;
+      right: 160px;
+    }
+  }
+  .middle{
+    background-color: $ylwb;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    left: 130px;
+    top: 300px;
+  }
+  .fltt{
+    width: 60%;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+  }
+  .fl{
+    padding-left: 0px;
+    width: 39%;
+    position: absolute;
+    left: 700px;
+    .titles{
+      padding-left: 120px;
+    }
+    .common{
+      padding-left: 120px;
+    }
+  }
+  .textbox2{
+    .titles{
+      padding-right: 0px;
+      padding-left: 20px;
+    }
+  }
+
+  .middle2{
+
+    .bc2{
+      .content{
+      width: 50%;
+      height: 338px;
+    }
+  }
+ }
+
+ .sct2{
+   padding-top: 400px;
+ }
+ .bc2{
+   .gradiantbr{
+     background-color: $lightrb;
+     position: absolute;
+     height: 400px;
+     width: 1px;
+     right: 470px;
+     top: 20px;
+   }
+ }
+
+ .frg{
+   background-color: $lightrb;
+   position: absolute;
+   height: 80%;
+   width: 1px;
+   right: 330px;
+   top: 40px;
+ }
+ .flex{
+   display: flex;
+   flex-wrap: wrap;
+   .pg31,.pg32,.pg33,.pg34,.pg35{
+     display: flex;
+     margin: 5px;
+     width: 32%;
+     height: 200px;
+     padding:0px;
+     display: inline;
+   }
+ }
+    .flex2{
+    overflow: auto;
+   .pg35{
+     float: left;
+     width: 20%;
+     height: 160%;
+   }
+   .pg36{
+     width: 65%;
+     float: right;
+     padding-bottom: 30px;
+   }
+ }
+ .foot{
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+  .l{
+    float: left;
+  }
+  .r{
+    float: right;
+  }
+ }
 }
