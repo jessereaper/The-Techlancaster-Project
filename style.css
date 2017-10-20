@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
-@import url("https://fonts.googleapis.com/css?family=lato");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -105,7 +103,7 @@ h1 {
 .picc {
   width: 100%;
   height: 153px;
-  font-family: Lato;
+  font-family: "lato";
   font-size: 34px;
   font-weight: 900;
   line-height: 1.17;
@@ -118,7 +116,7 @@ h1 {
 .piccc {
   width: 100%;
   height: 153px;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 34px;
   font-weight: 900;
   line-height: 1.17;
@@ -140,7 +138,7 @@ h1 {
   padding-bottom: 55px; }
 
 .titles {
-  font-family: DroidSerif;
+  font-family: "DroidSerif";
   font-size: 18px;
   font-weight: bold;
   line-height: 1.56;
@@ -157,7 +155,7 @@ h1 {
   padding-bottom: 20px; }
 
 .common {
-  font-family: DroidSerif;
+  font-family: "DroidSerif";
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.8px;
@@ -165,7 +163,7 @@ h1 {
   color: #021d2c; }
 
 .common2 {
-  font-family: DroidSerif;
+  font-family: "DroidSerif";
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.8px;
@@ -173,7 +171,7 @@ h1 {
   color: #021d2c; }
 
 .common3 {
-  font-family: DroidSerif;
+  font-family: "DroidSerif";
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.8px;
@@ -207,14 +205,26 @@ h1 {
 .list {
   color: #efe9d8; }
 
-.bklist .bklist2 {
+ul .bklist {
   background-color: #eb503c;
   padding-left: 10px;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  width: 100%;
-  height: 54px; }
+  width: 30%;
+  height: 100%;
+  float: left; }
+  ul .bklist .list {
+    padding-top: 5px; }
+ul .bklist2 {
+  background-color: #eb503c;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+  height: 100%;
+  float: right; }
 
 .sct {
   background-color: #ffc400; }
@@ -478,26 +488,28 @@ h1 {
   .frg {
     background-color: #eb503c;
     position: absolute;
-    height: 400px;
+    height: 300px;
     width: 1px;
     right: 330px;
     top: 40px; }
 
   .middle2 {
+    background-color: #ffc400;
     width: 80%;
+    height: 50%;
     position: absolute;
     left: 100px;
     top: 300px; }
     .middle2 .bc2 .content {
       width: 50%;
-      height: 100%; }
+      height: 200%; }
 
   .sct {
     position: absolute;
     top: 0.5px;
     right: 1px;
     width: 39%;
-    height: 99%; }
+    height: 100%; }
 
   .bc2 .gradiantbr {
     background-color: #eb503c;
@@ -520,6 +532,17 @@ h1 {
       height: 200px;
       padding: 0px;
       display: inline; }
+
+  .flex2 {
+    overflow: auto; }
+    .flex2 .pg35 {
+      float: left;
+      width: 20%;
+      height: 160%; }
+    .flex2 .pg36 {
+      width: 65%;
+      float: right;
+      padding-bottom: 30px; }
 
   .foot {
     width: 100%;
@@ -577,9 +600,11 @@ h1 {
     padding-right: 0px;
     padding-left: 20px; }
 
-  .middle2 .bc2 .content {
-    width: 50%;
-    height: 338px; }
+  .middle2 {
+    height: 40%; }
+    .middle2 .bc2 .content {
+      width: 50%;
+      height: 338px; }
 
   .sct2 {
     padding-top: 400px; }
