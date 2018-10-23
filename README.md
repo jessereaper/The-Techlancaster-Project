@@ -1,2 +1,2 @@
 # The-Techlancaster-Project
-midterm
+my first year midterm project
